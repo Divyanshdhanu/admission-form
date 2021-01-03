@@ -3,17 +3,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div style="margin : 30px;">
+    <div >
           <div>
               <h1 style="text-align: center; "> <u>Student Registration Form</u> </h1>
           </div>
 
-          <div style="background-color: aquamarine;">
+          <div>
               <form action="" method="POST">
      
-                 <table  cellpadding="10px">
+                 <table align="center" cellpadding="10px">
                   <!--  First name-->       
                     <tr>
                         <td>  First Name:</td>
@@ -106,7 +107,73 @@
 
                         </td>
                     </tr>
-                </tabl>     
+
+                    <tr>
+                        <td>Qualification  <br> <br> <br> <br></td>
+                        <td>
+                            <table  cellpadding="5px">
+                                <tr>
+                                    <th>Si. No.</th>
+                                    <th> Examination</th>
+                                    <th>Board</th>
+                                    <th>Percentage</th>
+                                    <th>Year of Passing</th>
+                                </tr>
+
+                                <tr>
+                                    <td>1</td>
+                                    <td>Class X</td> 
+                                    <td><input type="text" name="classX"></td>
+                                    <td><input type="number" min="33" max="100" placeholder="33"></td>
+                                    <td><input type="date"></td> 
+
+                                
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Class XII</td>
+                                    <td><input type="text " name="classXII"></td>
+                                    <td><input type="number" min="33" max="100" placeholder="33"></td>
+                                    <td><input type="date"></td>
+                                </tr>
+                                    
+                               
+
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Graduation</td>.
+                                        <td><input type="text " name="Graduation"></td>
+                                        <td><input type="number" min="33" max="100" placeholder="33"></td>
+                                        <td><input type="date"></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Masters</td>
+                                        <td><input type="text " name="master"></td>
+                                        <td><input type="number" min="33" max="100" placeholder="33"></td>
+                                        <td><input type="date"></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td>(max char 30)</0 chartd>
+                                    </tr>
+                                    
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" align="center"> <button type="submit" > Submit </button>  <button type="reset" colspan="2"> Reset </button></td>
+                        
+                    </tr>
+                </table> 
+                
+               
+                
 
               </form>
 
